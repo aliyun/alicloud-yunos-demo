@@ -1,0 +1,11 @@
+#ignore these files
+gen/
+bin/
+.settings
+target
+proguard-project.txt
+build/
+.gradle/
+.idea/
+*.iml
+local.properties
