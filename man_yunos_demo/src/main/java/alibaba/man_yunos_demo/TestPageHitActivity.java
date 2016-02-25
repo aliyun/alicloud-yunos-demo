@@ -1,6 +1,5 @@
 package alibaba.man_yunos_demo;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.alibaba.sdk.yunos.man.MANService;
@@ -9,10 +8,10 @@ import com.alibaba.sdk.yunos.man.MANServiceProvider;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TestPageHitActivity extends AppCompatActivity {
+public class TestPageHitActivity extends BaseActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test_page_hit);
 
