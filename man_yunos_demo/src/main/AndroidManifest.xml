@@ -35,7 +35,7 @@
             android:value="********" />
         <meta-data
             android:name="ALIYUN_MAN_CHANNEL"
-            android:value="******" />
+            android:value="YOUR CHANNEL ID" />
 
         <activity android:name=".TestPageHitActivity"></activity>
     </application>
